@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/geocoding-react/static/css/main.2df3b1c4.css",
+    "main.js": "/geocoding-react/static/js/main.81db7d53.js",
+    "static/js/453.c0608707.chunk.js": "/geocoding-react/static/js/453.c0608707.chunk.js",
+    "index.html": "/geocoding-react/index.html",
+    "main.2df3b1c4.css.map": "/geocoding-react/static/css/main.2df3b1c4.css.map",
+    "main.81db7d53.js.map": "/geocoding-react/static/js/main.81db7d53.js.map",
+    "453.c0608707.chunk.js.map": "/geocoding-react/static/js/453.c0608707.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2df3b1c4.css",
+    "static/js/main.81db7d53.js"
+  ]
+}
