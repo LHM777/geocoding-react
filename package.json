@@ -15,9 +15,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "preinstall": "npx npm-force-resolutions"
   },
   "eslintConfig": {
     "extends": [
@@ -38,6 +41,10 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.1.1",
+    "npm-force-resolutions": "^0.0.3"
+  },
+  "resolutions": {
+    "ws": "^8.17.1"
   }
 }
